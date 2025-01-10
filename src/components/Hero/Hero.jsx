@@ -4,7 +4,7 @@ import yellowCar from '../../assets/banner-car.png';
 
 const Hero = ({ theme }) => {
   return (
-    <div className="dark:bg-black dark:text-white duration-300 relative -z-20">
+    <div className="dark:bg-black dark:text-white duration-300 relative ">
       <div className="container min-h-[620px] flex">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div data-aos="zoom-in" className="order-1 sm:order-2">
