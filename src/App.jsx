@@ -5,6 +5,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from './components/About/About';
 import Services from './components/Services/Services';
+import CarList from './components/CarList/CarList';
+import Testimonial from './components/Testimonial/Testimonial';
+import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
+import AdevertiseBanner from './components/AdvertiseBanner/AdevertiseBanner';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
@@ -36,6 +41,11 @@ const App = () => {
       <Hero theme={theme} />
       <About />
       <Services />
+      <CarList />
+      <Testimonial />
+      <AppStoreBanner />
+      <AdevertiseBanner />
+      <Footer />
     </div>
   );
 };

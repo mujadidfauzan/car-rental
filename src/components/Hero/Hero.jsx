@@ -6,9 +6,9 @@ const Hero = ({ theme }) => {
   return (
     <div className="dark:bg-black dark:text-white duration-300 relative ">
       <div className="container min-h-[620px] flex">
-        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
-          <div data-aos="zoom-in" className="order-1 sm:order-2">
-            <img src={theme == 'dark' ? carPng : yellowCar} alt="car" className="relative -z-10 max-h-[620px] sm:scale-125 drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center m-auto">
+          <div data-aos="zoom-in" data-aos-duration="1500" data-aos-once="false" className="order-1 sm:order-2">
+            <img src={theme == 'dark' ? carPng : yellowCar} alt="car" className="sm:scale-125 relative -z-10 max-h-[600px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]]" />
           </div>
           <div className="order-2 sm:order-1 space-y-5 sm:pr-32">
             <p data-aos="fade-up" data-aos-delay="600" className="text-primary text-2xl font-serif">
@@ -18,7 +18,7 @@ const Hero = ({ theme }) => {
               Car Rental
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veritatis explicabo quibusdam quae reprehenderit ab.
             </p>
             <button data-aos="fade-up" data-aos-duration="1500" className="bg-primary px-6 py-2 rounded-md text-black hover:bg-primary/80 duration-150">
               Get Started

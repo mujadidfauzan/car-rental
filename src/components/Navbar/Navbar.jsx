@@ -26,7 +26,7 @@ const NavLinks = [
 
 const Navbar = ({ theme, setTheme }) => {
   return (
-    <nav className="shadow-sm bg-white dark:bg-dark dark:text-white duration-300">
+    <nav className="relative z-10 shadow-md w-full dark:bg-black dark:text-white duration-300">
       <div className="container">
         <div className="flex justify-between items-center">
           <div>
@@ -43,7 +43,7 @@ const Navbar = ({ theme, setTheme }) => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="cursor-pointer">
             {theme == 'dark' ? (
               <BiSolidSun
                 className="text-2xl"
